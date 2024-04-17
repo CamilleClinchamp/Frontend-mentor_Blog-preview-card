@@ -6,12 +6,12 @@
 @font-face {
     font-family: "Figtree";
     src: url("./assets/fonts/static/Figtree-SemiBold.ttf");
-    font-weight: bold;
+    font-weight: 500;
 }
 @font-face {
     font-family: "Figtree";
     src: url("./assets/fonts/static/Figtree-ExtraBold.ttf");
-    font-weight: 900;
+    font-weight: 800;
 }
 
 html {
@@ -60,24 +60,29 @@ img{
     background-color: hsl(47, 88%, 63%);
     padding: 5px 15px;
     border-radius: 3px;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 0.8em;
 }
 .date{
     font-size: 0.8em;
-    font-weight: bold;
+    font-weight: 500;
     margin-top: 14px;
 }
 h1{
     font-size: 1.3em;
-    font-weight: 900;
+    font-weight: 800;
+
+    &:hover, &:focus{
+        color: hsl(47, 88%, 63%);
+        cursor: pointer;
+    }
 }
 .intro{
     color: hsl(0, 0%, 50%);
     font-size: 0.9em;
 }
 .author{
-    font-weight: 900;
+    font-weight: 800;
     font-size: 0.8em;
     margin-top: 25px;
 
